@@ -1,8 +1,16 @@
-import React from "react";
-import phoenix from "../assets/images/phoenix2Revised.jpg";
-
+import Hero from "../components/Hero";
+import HomeCards from "../components/HomeCards";
+import ProjectListings from "../components/ProjectListings";
+import ViewAllProjects from "../components/ViewAllProjects";
 const HomePage = () => {
-  return <div>HomePage</div>;
+  return (
+    <>
+      <Hero />
+      <HomeCards />
+      <ProjectListings />
+      <ViewAllProjects />
+    </>
+  );
 };
 
 export default HomePage;
