@@ -1,5 +1,8 @@
 import { Link } from "react-router-dom";
 import Card from "./Card";
+import { SiDotnet, SiJavascript, SiOracle, SiJira } from "react-icons/si";
+import { FaAngular, FaReact, FaNode } from "react-icons/fa";
+import { BsFiletypeSql } from "react-icons/bs";
 
 const HomeCards = () => {
   return (
@@ -10,10 +13,9 @@ const HomeCards = () => {
             <Card>
               <h2 className="text-2xl font-bold">Full Stack Engineer</h2>
               <p className="mt-2 mb-4">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Soluta, non nesciunt. Voluptatum, molestiae impedit quod
-                inventore et suscipit similique, dolorem nobis asperiores harum
-                error itaque vel exercitationem, voluptatibus saepe aliquid?
+                I have over 2 years professional work experience including
+                engineering supervisor position. I have over 12 years of
+                management experience.
               </p>
               <Link
                 to="/jobs"
@@ -25,8 +27,14 @@ const HomeCards = () => {
             <Card bg="bg-indigo-100">
               <h2 className="text-2xl font-bold">Technologies</h2>
               <p className="mt-2 mb-4">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Soluta, non nesciunt. Voluptatum, molestiae impedit quod
+                <SiDotnet />
+                <FaAngular />
+                <FaReact />
+                <SiJavascript />
+                <FaNode />
+                <SiOracle />
+                <BsFiletypeSql />
+                <SiJira />
               </p>
               <Link
                 to="/add-job"
