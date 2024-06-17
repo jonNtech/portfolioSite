@@ -13,9 +13,12 @@ const HomeCards = () => {
             <Card>
               <h2 className="text-2xl font-bold">Full Stack Engineer</h2>
               <p className="mt-2 mb-4">
-                I have over 2 years professional work experience including
-                engineering supervisor position. I have over 12 years of
-                management experience.
+                I have over 2 years professional development work experience
+                including most recently an engineering supervisor position. I
+                have over 12 years of management experience. I led teams as
+                large as 300 people. I currently work as a .NET developer with
+                Angular on the frontend. I have built APIs, databases, custom
+                endpoints, and full web applications for corporations.
               </p>
               <Link
                 to="/jobs"
